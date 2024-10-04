@@ -1,0 +1,99 @@
+:root {
+  --main-color-red: rgb(204, 18, 18);
+  --main-color-white: rgb(255, 255, 255);
+  --main-color-black: rgb(0, 0, 0);
+  --text-color-mdblack: #212529;
+  --text-color-yellow: #ffb144;
+  --text-color-main: #040465;
+  --text-color-second-main: #2670c0;
+}
+.background {
+  background-image: url(/svg/Business\ Freelancer.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+  position: relative;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.wrapper-box {
+  border-radius: 25px;
+  border: 5px solid white;
+  padding: 1rem;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+.upload-form {
+  color: white;
+}
+
+.title-proj {
+  font-size: 70px;
+  font-weight: 800;
+}
+
+.tag-prog {
+  font-size: 24px;
+}
+.form-tag {
+  margin-top: 1.5rem;
+  font-size: 14px;
+}
+
+.form-input {
+  display: none;
+}
+
+.custom-file-label {
+  display: inline-block;
+  background-color: transparent;
+  color: white;
+  border: 3px solid white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 250px;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+
+.custom-file-label:hover {
+  background-color: #e0e0e0;
+  color: #212529;
+}
+
+.form-btn {
+  display: inline-block;
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 250px;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+
+.icon-pdf {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.icon-pdf img {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* modal design */
